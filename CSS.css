@@ -1,0 +1,67 @@
+body {
+    background: linear-gradient(180deg,
+            #081120 0%,
+            #102a43 50%,
+            #1b4965 100%);
+    color: white;
+}
+
+nav {
+    background: linear-gradient(180deg,
+            #081120 0%,
+            #102a43 50%,
+            #1b4965 100%);
+    
+}
+
+
+#a{
+    background:
+        linear-gradient(rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)),
+        url("kepek/M4TD.jpg");
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+    color: white;
+}
+
+#a h1{
+    font-size: 4rem;
+    margin-bottom: 1rem;
+}
+
+#a p{
+    max-width: 700px;
+    font-size: 1.2rem;
+}
+#b{
+    background:
+        linear-gradient(rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)),
+        url("kepek/M4TDFrontShot.png");
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+    color: white;
+}
