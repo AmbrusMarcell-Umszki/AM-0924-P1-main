@@ -95,7 +95,8 @@ nav {
     margin-bottom: 2vh;
 }
 
-#b h1, #b h2 {
+#b h1,
+#b h2 {
     font-size: 2.5vh;
     margin-bottom: 1.5vh;
 }
@@ -123,7 +124,8 @@ footer {
     background: linear-gradient(180deg, #102a43 0%, #081120 100%);
     padding: 4vh 2vw;
     text-align: center;
-    margin-top: 0;        /* ne legyen random hely */
+    margin-top: 0;
+    /* ne legyen random hely */
 }
 
 footer p {
@@ -133,3 +135,59 @@ footer p {
     letter-spacing: 0.1vh;
 }
 
+#c {
+    width: 85%;
+    margin: 8vh auto 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4vh;
+    color: white;
+    text-align: center;
+}
+
+#c h1 {
+    font-size: 4vh;
+    margin-bottom: 2vh;
+}
+
+
+.c-card {
+    width: 100%;
+    max-width: 900px;
+    background: rgba(0, 0, 0, 0.35);
+    padding: 4vh 3vw;
+    border-radius: 2vh;
+    backdrop-filter: blur(4px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2vh;
+}
+
+
+.c-card h2 {
+    font-size: 3vh;
+    margin: 0;
+}
+
+
+.c-card ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5vh;
+}
+
+.c-card li {
+    font-size: 2vh;
+    line-height: 1.6;
+}
+
+.c-card li strong {
+    font-size: 2.1vh;
+}
