@@ -118,3 +118,18 @@ nav {
     font-size: 4vh;
     margin-bottom: 1.5vh;
 }
+
+footer {
+    background: linear-gradient(180deg, #102a43 0%, #081120 100%);
+    padding: 4vh 2vw;
+    text-align: center;
+    margin-top: 0;        /* ne legyen random hely */
+}
+
+footer p {
+    font-size: 2vh;
+    color: #ffffff;
+    opacity: 0.85;
+    letter-spacing: 0.1vh;
+}
+
