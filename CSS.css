@@ -11,11 +11,11 @@ nav {
             #081120 0%,
             #102a43 50%,
             #1b4965 100%);
-    
+
 }
 
 
-#a{
+#a {
     background:
         linear-gradient(rgba(0, 0, 0, 0.5),
             rgba(0, 0, 0, 0.5)),
@@ -36,16 +36,17 @@ nav {
     color: white;
 }
 
-#a h1{
+#a h1 {
     font-size: 4rem;
     margin-bottom: 1rem;
 }
 
-#a p{
+#a p {
     max-width: 700px;
     font-size: 1.2rem;
 }
-#b{
+
+#b {
     background:
         linear-gradient(rgba(0, 0, 0, 0.5),
             rgba(0, 0, 0, 0.5)),
@@ -64,4 +65,41 @@ nav {
 
     text-align: center;
     color: white;
+
+    padding: 8vh 4vw;
+
+    height: auto;
+    min-height: 100vh;
+    padding: 10vh 4vw;
+    margin-top: 5vh;
+}
+
+
+
+
+#b .row {
+    width: 80%;
+    margin: 0 auto;
+    gap: 4vh;
+    padding: 4vh 3vw;
+    background: rgba(0, 0, 0, 0.35);
+    border-radius: 2vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+#b .col {
+    padding: 2vh 1.5vw;
+}
+
+#b h1,
+#b h2 {
+    font-size: 3vh;
+}
+
+#b p {
+    font-size: 1.9vh;
+    line-height: 1.7;
 }
