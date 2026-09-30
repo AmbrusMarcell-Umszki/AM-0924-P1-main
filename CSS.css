@@ -146,11 +146,11 @@ footer p {
 
 
     background-image: url(kepek/M4TD-specifikációk.webp);
-    background-size: cover;          /* kitölti a teljes hátteret */
-    background-position: center;     /* középre igazítja a képet */
-    background-repeat: no-repeat;    /* nem ismétlődik */
-    background-attachment: fixed;    /* elegáns parallax hatás */
-    padding: 6vh 0;                  /* ad egy kis belső teret */
+    background-size: cover;          
+    background-position: center;     
+    background-repeat: no-repeat;    
+    background-attachment: fixed;    /* ez csinálja meg azt az efetet */
+    padding: 6vh 0;                  
 }
 
 
@@ -158,7 +158,6 @@ footer p {
     font-size: 4vh;
     margin-bottom: 2vh;
 }
-
 
 .c-card {
     width: 100%;
