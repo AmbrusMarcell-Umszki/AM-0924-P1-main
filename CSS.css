@@ -135,7 +135,7 @@ footer p {
     letter-spacing: 0.1vh;
 }
 
-#c {
+#c, #d {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -162,7 +162,7 @@ footer p {
 .c-card {
     width: 100%;
     max-width: 900px;
-    background: rgba(0, 0, 0, 0.35);
+    background: rgba(0, 0, 0, 0.466);
     padding: 4vh 3vw;
     border-radius: 2vh;
     backdrop-filter: blur(4px);
@@ -199,3 +199,33 @@ footer p {
     font-size: 2.1vh;
 }
 
+.c-card button {
+    background: linear-gradient(135deg, #00ff37, #00d873);
+    color: white;
+
+    border: none;
+    border-radius: 10px;
+
+    padding: 14px 35px;
+
+    font-size: 18px;
+    font-weight: bold;
+
+    cursor: pointer;
+
+    box-shadow: 0 5px 15px rgba(0, 119, 255, 0.35);
+
+    transition: 0.3s;
+}
+
+.c-card button:hover {
+    transform: translateY(-3px) scale(1.03);
+
+    box-shadow: 0 8px 25px rgba(0, 216, 97, 0.55);
+
+    background: linear-gradient(135deg, #00ff2a, #00ff88);
+}
+
+.c-card button:active {
+    transform: scale(0.97);
+}
