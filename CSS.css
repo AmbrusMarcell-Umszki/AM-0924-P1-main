@@ -135,7 +135,8 @@ footer p {
     letter-spacing: 0.1vh;
 }
 
-#c, #d {
+#c,
+#d {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -146,11 +147,12 @@ footer p {
 
 
     background-image: url(kepek/M4TD-specifikációk.webp);
-    background-size: cover;          
-    background-position: center;     
-    background-repeat: no-repeat;    
-    background-attachment: fixed;    /* ez csinálja meg azt az efetet */
-    padding: 6vh 0;                  
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    /* ez csinálja meg azt az efetet */
+    padding: 6vh 0;
 }
 
 
@@ -200,7 +202,7 @@ footer p {
 }
 
 .c-card button {
-    background: linear-gradient(135deg, #00ff37, #00d873);
+    background: linear-gradient(135deg, #135020d0, #125838be);
     color: white;
 
     border: none;
@@ -213,7 +215,7 @@ footer p {
 
     cursor: pointer;
 
-    box-shadow: 0 5px 15px rgba(0, 119, 255, 0.35);
+    box-shadow: 0 5px 15px rgba(27, 85, 72, 0.35);
 
     transition: 0.3s;
 }
@@ -221,11 +223,96 @@ footer p {
 .c-card button:hover {
     transform: translateY(-3px) scale(1.03);
 
-    box-shadow: 0 8px 25px rgba(0, 216, 97, 0.55);
+    box-shadow: 0 8px 25px rgba(15, 58, 34, 0.55);
 
-    background: linear-gradient(135deg, #00ff2a, #00ff88);
+    background: linear-gradient(135deg, #184920d5, #115736ce);
 }
 
 .c-card button:active {
     transform: scale(0.97);
+}
+
+#d {
+    padding: 8vh 5vw;
+}
+
+#d h1 {
+    font-size: 4vh;
+    margin-bottom: 3vh;
+}
+
+.rendelesek {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    gap: 2vw;
+}
+
+.rendeles {
+    width: 30%;
+    background: rgba(0, 0, 0, 0.658);
+
+    padding: 3vh 2vw;
+    border-radius: 2vh;
+
+    backdrop-filter: blur(4px);
+
+    display: flex;
+    flex-direction: column;
+}
+
+.rendeles h2 {
+    font-size: 2.5vh;
+    margin-bottom: 2vh;
+}
+
+.rendeles p {
+    font-size: 1.7vh;
+    line-height: 1.6;
+}
+
+.rendeles ul {
+    list-style: none;
+    padding: 0;
+    margin: 2vh 0;
+
+    flex-grow: 1;
+}
+
+.rendeles li {
+    font-size: 1.7vh;
+    margin-bottom: 1vh;
+}
+
+.rendeles button {
+    background: #125838;
+    color: white;
+
+    border: none;
+    border-radius: 8px;
+
+    padding: 12px 25px;
+
+    font-size: 17px;
+    font-weight: bold;
+
+    cursor: pointer;
+}
+
+.rendeles button:hover {
+    background: #184920;
+}
+
+.ds-card h1 {
+    width: 100%;
+    max-width: 900px;
+    background: rgba(0, 0, 0, 0.575);
+    padding: 4vh 6vw;
+    border-radius: 2vh;
+    backdrop-filter: blur(4px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.7vh;
 }
