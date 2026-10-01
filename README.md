@@ -4,37 +4,20 @@
 
 Ez a projekt egy bemutatkozó weboldal a DJI Matrice 4TD drónról, amely elsősorban kutató-mentő és sürgősségi feladatokra használható.
 
-A weboldal célja, hogy bemutassa a drón fontosabb képességeit, technikai specifikációit és a mentési feladatok során alkalmazható technológiákat.
+Órai projektmunka
 
 A weboldalt készítette: **Ambrus Marcell**
 
 ---
 
-## Felhasznált technológiák
+## Cím
 
-A weboldal elkészítéséhez az alábbi technológiákat használtam:
+Valami:
 
-- HTML5
-- CSS3
-- Bootstrap 5
-- Flexbox
-- CSS Gradient
-- CSS `backdrop-filter`
-- Reszponzív Bootstrap Grid rendszer
+- Felsorolás
+- Felsorolás
+
 
 ---
 
-## A projekt felépítése
-
-A projekt fő fájljai:
-
-```text
-projekt/
-│
-├── index.html
-├── CSS.css
-│
-└── kepek/
-    ├── M4TD.jpg
-    ├── M4TDFrontShot.png
-    └── M4TD-specifikációk.webp
+## Cím
