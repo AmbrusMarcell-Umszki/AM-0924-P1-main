@@ -47,16 +47,20 @@ nav {
 }
 
 #b {
+    position: relative;
+
     background:
-        linear-gradient(rgba(0, 0, 0, 0.5),
-            rgba(0, 0, 0, 0.5)),
+        linear-gradient(
+            rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)
+        ),
         url("kepek/M4T-hatter1.webp");
 
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 
-    height: auto;
+    min-height: 100vh;
 
     display: flex;
     flex-direction: column;
@@ -66,6 +70,7 @@ nav {
     text-align: center;
     color: white;
 
+    padding-bottom: 10vh;
 }
 
 #b .row {
