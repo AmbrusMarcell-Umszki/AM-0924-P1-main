@@ -2,7 +2,7 @@
 
 ## Projekt leírása
 
-Ez a projekt egy bemutatkozó weboldal a DJI Matrice 4TD drónról, amely elsősorban kutató-mentő és sürgősségi feladatokra használható.
+Ez a projekt egy bemutatkozó weboldal a DJI Matrice 4 drónról, amely elsősorban kutató-mentő és sürgősségi feladatokra használható.
 
 Órai projektmunka
 
@@ -10,12 +10,13 @@ A weboldalt készítette: **Ambrus Marcell**
 
 ---
 
-## Cím
+## Oldalrészek
 
-Valami:
+Oldalrészek:
 
-- Felsorolás
-- Felsorolás
+- Képességek
+- Specifikációk
+- Vásárlás
 
 
 ---
