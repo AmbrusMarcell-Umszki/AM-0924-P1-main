@@ -95,6 +95,11 @@ nav h2 {
     margin-bottom: 40px;
 }
 
+#jelenlegi-projekt{
+    text-decoration: none;
+    color: rgb(7, 124, 23);
+    font-size: 20px;
+}
 
 /* FŐOLDAL GOMB */
 
@@ -195,6 +200,14 @@ nav h2 {
 
 .projekt-szoveg {
     padding: 25px;
+}
+
+.projekt-szoveg h1 {
+    color: rgb(7, 124, 23);
+
+    font-size: 30px;
+
+    margin-bottom: 15px;
 }
 
 .projekt-szoveg h2 {
