@@ -12,7 +12,7 @@ body {
 }
 
 
-/* NAVBAR */
+
 
 nav {
     width: 100%;
@@ -101,7 +101,7 @@ nav h2 {
     font-size: 20px;
 }
 
-/* FŐOLDAL GOMB */
+
 
 .gomb {
     display: inline-block;
@@ -128,7 +128,7 @@ nav h2 {
 }
 
 
-/* PROJEKTEK */
+
 
 #projektek {
     min-height: 100vh;
@@ -162,7 +162,6 @@ nav h2 {
 }
 
 
-/* PROJEKT KÁRTYA */
 
 .projekt {
     width: 350px;
@@ -186,7 +185,6 @@ nav h2 {
 }
 
 
-/* PROJEKT KÉPE */
 
 .projekt img {
     width: 100%;
@@ -196,7 +194,7 @@ nav h2 {
 }
 
 
-/* PROJEKT SZÖVEGE */
+
 
 .projekt-szoveg {
     padding: 25px;
@@ -228,7 +226,6 @@ nav h2 {
 }
 
 
-/* PROJEKT GOMB */
 
 .projekt-szoveg a {
     display: inline-block;
@@ -252,7 +249,6 @@ nav h2 {
 }
 
 
-/* RÓLAM */
 
 #rolam {
     padding: 120px 7%;
@@ -293,7 +289,6 @@ nav h2 {
 }
 
 
-/* FOOTER */
 
 footer {
     background-color: #030712;
